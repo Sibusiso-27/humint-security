@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HUMINT.CO.ZW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Barlow:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="humint.css" />
+</head>
+<body>
+
+  
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:rgba(12, 21, 91,0.7); border: 1px solid rgba(246,242,231,0.18);">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="pics/logo.png" alt="company logo" width="60" height="60" class="me-2" style="border:1px solid rgba(250,220,137,0.908); background:#fff; padding:2px;" />
+                <div>
+                    <h1 class="fs-6 text-white mb-0">HUMINT SECURITY</h1>
+                    <h2 class="fs-6 text-secondary mb-0" style="font-size:10px; color:grey !important;">SECURITY SERVICES (PVT) LTD</h2>
+                </div>
+            </a>
+
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+          
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item"><a class="nav-link text" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link text" href="#services">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link text" href="#why">WHY US</a></li>
+                    <li class="nav-item"><a class="nav-link text" href="#contact">CONTACT</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary border border-1 px-3 py-1" href="#contact" style="border-color:rgba(218,220,253,0.673); color:rgba(218,220,253,0.673) !important; border-radius: 6px;">ENGAGE US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+ <section id="hero" class="d-flex align-items-center" style="background-image: url('pics/laptop.jpg'); background-size:cover; background-position: center; min-height: 447px; padding: 4rem 0; border-bottom:1px solid #000; color:white;">
+    <div class="container">
+        <div class="row align-items-center g-4">
+
+            <div class="col-md-6 order-2 order-md-1">
+                <div class="row row-cols-2 g-2">
+                    <div class="col">
+                        <div class="stat-box text-center" style="padding:10px 10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:8px;">
+                            <p class="fw-bold text-white mb-0" style="font-size: clamp(2rem, 4vw, 3rem); color: white">22+</p>
+                            <p class="text mb-0" style="font-size: clamp(15px, 1.2vw, 13px); letter-spacing:0.5px; color:#c5c5c6">YEARS OF COMBINED EXPERIENCE</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="stat-box text-center" style="padding:10px 10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:8px;">
+                            <p class="fw-bold text-white mb-0" style="font-size: clamp(2rem, 4vw, 3rem);">30+</p>
+                            <p class="text mb-0" style="font-size: clamp(15px, 1.2vw, 13px); letter-spacing:0.5px;">MAJOR PROJECTS SECURED</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="stat-box text-center" style="padding:10px 10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:8px;">
+                            <p class="fw-bold text-white mb-0" style="font-size: clamp(2rem, 4vw, 3rem);">100%</p>
+                            <p class="text mb-0" style="font-size: clamp(10px, 1.2vw, 13px); letter-spacing:0.5px; color:#c5c5c6; ">CUSTOMER SATISFACTION</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="stat-box text-center" style="padding:10px 10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:8px;">
+                            <p class="fw-bold text-white mb-0" style="font-size: clamp(2rem, 4vw, 3rem);">24/7</p>
+                            <p class="text mb-0" style="font-size: clamp(15px, 1.2vw, 13px); letter-spacing:0.5px;">INTELLIGENCE MONITORING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 order-1 order-md-2 text-md-end text-center">
+                <h1 class="fw-bold text-white" style="font-size: 5rem;">
+                    SECURITY<br>REDEFINED
+                </h1>
+                <p class="lead" style="font-size: clamp(0.9rem, 2vw, 1.2rem);">
+                    Humint Security Services provides threat-based,<br>
+                    preventive security consultancy for individuals,<br>
+                    corporates, and major projects across Zimbabwe —<br>
+                    including high-risk oil, gas, and mining operations.
+                </p>
+                <div class="d-flex gap-3 justify-content-md-end justify-content-center mt-4 flex-wrap">
+                    <a  class="btn" role="button" id="btn-custom" href="#services">OUR SERVICES →</a>
+                    <a class="btn" id="btn-custom1" role="button" href="#contact">CONTACT</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="about" class="py-5 about-section" style="background-image: url(pics/coworkers2.jpg);  background-size: auto;  color:  white; border-bottom:1px solid rgba(246,242,231,0.18);
+     transform: 0.4s ease, boxshadow 0.4s ease;">
+        <div class="container">
+            
+            <h2 class="text-secondary" style="margin-top: -10px; font-size: 18px; letter-spacing: 3px;"> —ABOUT THE FIRM</h2> </br>
+            <h1 class="text" style="font-size: 3.4rem;    font-weight: 800; transition: transform 0.3s ease;">THREAT-BASED.</br>  PRE-EMPTIVE.</br> PREVENTIVE. </h1></br>
+           <div class="row row-cols-1">
+            <div class="col col-md-5">
+                <p class="text-abt">Humint Security Services Private Limited 
+                 is a security consultancy firm geared to redefine 
+                 the security service industry in Zimbabwe. 
+                 Through its highly qualified and experienced personnel,
+                  we provide bespoke security consultancy to 
+                  individuals and corporates alike.</p>
+
+                 <p class="text-abt"> We provide real-time risk analysis, 
+                    threat assessments, security consultancy, 
+                    anti-illicit trade investigations, and counterfeit goods detection 
+                    to help clients identify and prevent potential risks before they impact operations.</p>
+
+                 <p  class="text-abt">Our approach is preventive, proactive, 
+                and focused on enabling safe, uninterrupted business operations 
+                through timely intelligence and practical security solutions.</p>
+            </div>
+            <div class="col col-md-7">
+                 <img class="img-fluid" id="abt-img"  src="pics/peoplereading-files.jpg">
+                 
+                </img><br>
+                
+            </div>
+            </div>
+           <div class="card" id="card">
+                    <div class="card-body col-sm-6 mb-3 mb-sm-0 text-center w-100">
+                        <h3 style=" text-align: center; text-decoration: underline; font-weight: 600; font-size: 23px;">OUR MISSION</h3> </br>
+                    <p style="text-align: center; color: rgba(12, 21, 91,0.7);">
+                        To be a leading professional security consultancy services provider by 
+                    ensuring that our clients' interests, assets
+                     and operations are protected by scanning their operating
+                     environments through real time risk analysis and threat assessment.
+                    </p>
+                    </div>
+                </div><br> 
+        </div>
+    </section>
+
+    <section id="services" class="py-5 services-section" style="background-image: url(pics/supervisor.jpg); background-size: auto; background-position: bottom; color:white; border-bottom:1px solid rgba(246,242,231,0.18);">
+        <div class="container">
+           <h2 class="text-secondary" style="margin-top: -10px; font-size: 18px; letter-spacing: 3px;"> —WHAT WE DO</h2><br>
+           <h1 class="text" style="font-size: 3.3rem;    font-weight: 800;">OUR SERVICES</h1><br>
+           <p style="text-align: end; margin-top: -50px; font-weight: 400; letter-spacing: 1.2px;">Every engagement is tailored to the specific threat <br> environment and 
+             operational context of the client.</p> <br>
+
+           <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 text-center " id="list">
+            <div class="card-title" >
+                <h2 class="services">THREAT ASSESSMENT</h2>
+            </div>
+            <div class="card-body d-flex flex-column">
+                    <p class="card-text">
+                        Comprehensive identification and evaluation of existing, 
+                        emerging, and potential threats to your operations and personnel.
+                    </p>
+                    <a href="#contact" class="btn mt-auto" role="button">
+                        ENQUIRE
+                    </a>
+                </div>
+           </div>
+        </div>
+            
+            <div class="col">
+                <div class="card h-100 text-center" id="list">
+            <div class="card-title">
+                <h2 class="services">ANTI-ILLICIT TRADE</h2>
+            </div>
+            <div class="card-body d-flex flex-column">
+                    <p class="card-text">
+                        Special investigations for corporates and government
+                         agencies to combat illicit trade and recover billions lost annually.
+                          Proven expertise with TISA in 
+                        investigating illicit tobacco and cigarette trade across Southern Africa.
+                    </p>
+                    <a href="#contact" class="btn mt-auto" role="button">
+                        ENQUIRE
+                    </a>
+                </div>
+           </div>
+        </div>
+           
+            <div class="col">
+                <div class="card h-100 text-center" id="list" >
+            <div class="card-title">
+                <h2 class="services">EXTERNAL RISK ANALYSIS</h2>
+            </div>
+            <div class="card-body d-flex flex-column">
+                    <p class="card-text">Real-time preemptive intelligence on surrounding community 
+                        dynamics that could disrupt major projects or supply chains.
+                    </p>
+                   <a href="#contact" class="btn mt-auto" role="button">
+                        ENQUIRE
+                    </a>
+                </div>
+           </div>
+        </div>
+            
+    
+            <div class="col">
+                <div class="card h-100 text-center" id="list">
+            <div class="card-title">
+                <h2 class="services">COUNTERFEIT GOODS DETECTION</h2>
+            </div>
+            <div class="card-body d-flex flex-column">
+                    <p class="card-text">
+                        Detect counterfeit goods and piracy, assist with arrests, 
+                        seizures, and destruction of products. Preserve and
+                         enforce Intellectual Property Rights (IPR) for legitimate manufacturers.
+                    </p>
+                   <a href="#contact" class="btn mt-auto" role="button">
+                        ENQUIRE
+                    </a>
+                </div>
+           </div>
+        </div>
+           
+            <div class="col">
+                 <div class="card h-100 text-center" id="list">
+            <div class="card-title">
+                <h2 class="services">ENVIRONMENTAL PROTECTION</h2> 
+            </div>
+            <div class="card-body d-flex flex-column">
+                   <p class="card-text">
+                    Manufacturing and distributing vehicle litter bins through 
+                    our Smart Travel Products division. Available in multiple shades 
+                    to suit various vehicle interiors,
+                     supporting government clean-environment legislation.
+                   </p>
+                   <a href="#contact" class="btn mt-auto" role="button">
+                        ENQUIRE
+                    </a>
+                </div>
+           </div>
+        </div>
+          
+           <div class="col">
+            
+            <div class="card h-100 text-center" id="list">
+            <div class="card-title">
+                <h2 class="services">PROJECT RISK MANAGEMENT</h2>
+            </div>
+            <div class="card-body d-flex flex-column">
+                    <p class="card-text"> End-to-end risk planning for high-value projects including oil, gas, 
+                        and flagship mining operations across Zimbabwe.
+                    </p>
+                    <a href="#contact" class="btn mt-auto" role="button">
+                        ENQUIRE
+                    </a>
+                </div>
+           </div>
+        </div>     
+            
+        </div>
+    </section>
+
+<section id="why" class="py-5" style="background-image: url(pics/coworkers2.jpg);background-size: auto; background-position:right; color:white; border-bottom:1px solid rgba(246,242,231,0.18);">
+        <div class="container">
+          <div class="row row-cols-1 align-items-md-center">
+            <div class="col col-md-7 col-xl-5">
+    <div class="position-relative overflow-hidden rounded-3">
+
+        <img 
+            src="pics/datacenter-managment.jpg" 
+            id="whyus" 
+            class="img-fluid w-100" 
+            style="max-height: 450px; object-fit: cover;"
+        >
+
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center text-white" 
+             style="opacity: 0.85; z-index: 2;">
+
+            <h1 class="fw-bold text-center" 
+                style="font-size: clamp(2.2rem, 8vw, 3.3rem); letter-spacing: 3px;">
+                HUMINT
+            </h1>
+
+            <p class="text-center fw-semibold" 
+               style="font-size: clamp(12px, 2vw, 15px); letter-spacing: 3px; margin-top: -6px;">
+                Human Intelligence — At The Core
+            </p>
+
+        </div>
+    </div>
+
+</div>
+            <div class="col col-md-5 sm-3 xl-7">
+                <h2 class="text-secondary " style="margin-top: 10px; font-size: 18px; letter-spacing: 3px;"> —OUR DIFFERANTIATION</h2><br>
+                <h1 class="text" style="font-size: 3.3rem; font-weight: 700;">WHY CHOOSE HUMINT?</h1><br>
+                <ol class="list-items">
+                    <li class="item">
+                        HUMAN CENTERED INTELLIGENCE
+                        <p class="item-text">
+                            Our name reflects our method. We rely on deep human networks and local knowledge,
+                             not only technology, to deliver actionable intelligence.
+                        </p>
+                    </li>
+                    <li class="item">
+                        PREVENTIVE-FIRST PHILOSOPHY
+                        <p class="item-text"> 
+                            We intervene before disruption occurs. Our real-time 
+                            preemptive advice stops threats before they become incidents.
+                        </p>
+
+                    </li>
+                    <li class="item">
+                        COMMUNITY RISK EXPERTISE
+                        <p class="item-text">
+                            Unmatched experience analyzing social dynamics and community 
+                            relations around major extractive projects in Zimbabwe,
+                             such as the prominent Mbire/Muzarabani Gas project.
+                        </p>
+                    </li>
+                    <li class="item">
+                        SENIOR, QUALIFIED PERSONEL
+                        <p class="item-text">
+                            Every engagement is led by highly qualified
+                             professionals with extensive
+                             field experience in high-risk operating environments.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+           </div>
+            
+        </div>
+    </section>
+
+<section id="contact" class="py-5" style="background-image:url(pics/coworkers2.jpg);  color:white;">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-7 xl-6">
+                    <h2 class="text-secondary " style=" font-size: 18px; letter-spacing: 3px;"> —GET IN TOUCH</h2><br>
+                <h1 class="text" style="font-size: 3.3rem; font-weight: 700;">ENGAGE <br> OUR TEAM</h1><br>
+                <p>
+                    Whether you are planning a new project, 
+                    facing an active threat environment, or seeking a 
+                    security review of your current operations — we are ready to assist.
+                </p><br>
+
+                <div class="contact d-flex gap-3">
+                    <img class="contact-img" src="pics/location.png"  />
+                    <h4>
+                        LOCATION
+                    </h4>
+                </div>
+                <p class="ctc">
+                    Verona Gardens 70 Livingstone Avenue,<br>
+                     Cnr 7th & Livingstone Harare
+                </p>
+
+                <div class="contact d-flex gap-3">
+                    <img class="contact-img" src="pics/phone (1).png"  />
+                    <h4 class="text">
+                        PHONE
+                    </h4>
+                </div>
+                <p  class="ctc">
+                    +263779932120<br>
+                    +263775952480
+                </p>
+
+                <div class="contact d-flex gap-3">
+                    <img class="contact-img" src="pics/mail.png"  />
+                    <h4 class="text">
+                        EMAIL
+                    </h4>
+                </div>
+                <p  class="ctc">
+                    humintsecurityservices@gmail.com
+                </div>
+
+                <div class="col col-md-5 sm-3 g-3">
+                    <div class="form-container">
+                        <h2 style="font-size: 18px; font-weight: 500; letter-spacing: 2px; text-align: center; padding: 10px;">
+                            CONFIDENTIAL ENQUIRY FORM
+                        </h2>
+                        <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">
+                            Name
+                        </label>
+                        <input type="text" class="form-control" id="form-input-name" placeholder="Your Name"/>
+                    </div>
+
+                     <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">
+                            Email
+                        </label>
+                        <input type="email" class="form-control" id="form-input" placeholder="placeholder@gmail.com"/>
+                    </div>
+
+                     <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">
+                         Message
+                        </label>
+                        <textarea class="form-control " rows="3" id="form-text" placeholder="Describe your security requirement or enquiry..."></textarea>
+                    </div>
+
+                    <div class="enquiry">
+                        <button class="btn mt-auto btn-submit " type="button" id="livetoastbtn" >
+                            SUBMIT ENQUIRY
+                        </button>
+                        
+                      
+                        <div class="toast-container position-fixed bottom-0 end-0 p-2">
+                            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                 <div class="toast-body">
+                                  Message Submitted !
+                                 </div>
+                            </div>
+                        </div>
+                    </div><br>
+                        
+                    <p style="font-size: 13px; text-align: center;">
+                        All communications are treated as strict, with confidentiallity.
+                    </p>
+
+                </div>
+            </div>
+                    
+            </div>
+            
+        </div>
+    </section>
+ 
+   <footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+                <span class="text-white">&copy; 2026 Humint Security. All rights reserved.</span>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Terms of Use</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="humint.js"></script>
+</body>
+</html>
