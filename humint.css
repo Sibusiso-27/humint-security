@@ -221,9 +221,9 @@ h4{
 }
 .form-container{
     border: 1px solid rgb(144, 144, 144, 0.4);
-    
+    width: 100%;
     border-radius: 12px;
-    width: 400px;
+    max-width: 400px;
     padding: 3px 27px;
     justify-content: center;
     background-color:rgba(197, 198, 200, 0.2);
